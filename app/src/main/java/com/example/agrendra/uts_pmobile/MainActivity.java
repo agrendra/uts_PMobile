@@ -16,17 +16,15 @@ public class MainActivity extends AppCompatActivity {
             "Rumus Luas dan Kelilingi",
             "Rumus Luas dan Keliling",
             "Rumus Luas dan Keliling",
-            "Rumus Luas dan Keliling",
             "Rumus Luas dan Keliling"
     };
 
     Integer[] imgid = {
-            R.drawable.icon,
-            R.drawable.icon,
-            R.drawable.icon,
-            R.drawable.icon,
-            R.drawable.icon,
-            R.drawable.icon
+            R.drawable.panjang,
+            R.drawable.persegi,
+            R.drawable.lingkaran,
+            R.drawable.segitiga,
+            R.drawable.trapesium
     };
 
     String[] descriptionitem = {
@@ -34,8 +32,7 @@ public class MainActivity extends AppCompatActivity {
             "Persegi",
             "Lingkaran",
             "Segitiga",
-            "Trapesium",
-            "Jajar Genjang"
+            "Trapesium"
     };
 
     @Override
