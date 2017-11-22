@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://D:\Git\uts_PMobile\app\app.iml" filepath="D:\Git\uts_PMobile\app\app.iml" />
       <module fileurl="file://$PROJECT_DIR$/uts_PMobile.iml" filepath="$PROJECT_DIR$/uts_PMobile.iml" />
+      <module fileurl="file://D:\Git\uts_PMobile\uts_PMobile.iml" filepath="D:\Git\uts_PMobile\uts_PMobile.iml" />
     </modules>
   </component>
 </project>
