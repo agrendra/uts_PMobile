@@ -5,10 +5,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.Html;
 import android.view.View;
+import android.widget.Adapter;
 import android.widget.AdapterView;
 import android.widget.ListView;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements AdapterView.OnItemClickListener{
     Intent intent;
     ListView list;
     String[] itemname = {
@@ -20,11 +21,11 @@ public class MainActivity extends AppCompatActivity {
     };
 
     Integer[] imgid = {
-            R.drawable.panjang,
-            R.drawable.persegi,
-            R.drawable.lingkaran,
-            R.drawable.segitiga,
-            R.drawable.trapesium
+            R.drawable.icon,
+            R.drawable.icon,
+            R.drawable.icon,
+            R.drawable.icon,
+            R.drawable.icon
     };
 
     String[] descriptionitem = {
