@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.agrendra.uts_pmobile.DetailActivity">
+
+    <TextView
+        android:id="@+id/teks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="teks1"
+        android:layout_margin="10dp"
+        android:gravity="center"/>
+    <EditText
+        android:id="@+id/input1"
+        android:layout_toRightOf="@+id/teks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/teks2"
+        android:layout_below="@+id/teks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="teks2"
+        android:layout_margin="10dp"
+        android:gravity="center"/>
+    <EditText
+        android:id="@+id/input2"
+        android:layout_below="@+id/teks"
+        android:layout_toRightOf="@+id/teks2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_below="@+id/teks2"
+        android:layout_marginTop="10dp"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:text="Luas"/>
+    <Button
+        android:id="@+id/btn2"
+        android:layout_below="@id/teks2"
+        android:layout_marginTop="10dp"
+        android:layout_alignRight="@+id/input2"
+        android:layout_toRightOf="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="keliling"/>
+</RelativeLayout>
