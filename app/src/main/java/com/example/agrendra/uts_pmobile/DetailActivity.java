@@ -16,10 +16,10 @@ public class DetailActivity extends AppCompatActivity {
         setContentView(R.layout.activity_detail);
         //textView = (TextView)findViewById(R.id.)
         Intent intent = getIntent();
-        getSupportActionBar().setTitle(intent.getStringExtra("Tit"));
+        getSupportActionBar().setTitle(intent.getStringExtra("title"));
         if(getSupportActionBar()!=null){
             getSupportActionBar().setDisplayShowHomeEnabled(true);
-            getSupportActionBar().setDisplayShowHomeEnabled(true);
+            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         }
     }
 

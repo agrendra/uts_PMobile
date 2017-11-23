@@ -35,12 +35,12 @@ public class CustomListAdapter extends ArrayAdapter<String> {
 
         TextView txtTitle = (TextView) rowView.findViewById(R.id.item);
         ImageView imageView = (ImageView) rowView.findViewById(R.id.icon);
-        TextView extratxt = (TextView) rowView.findViewById(R.id.textView1);
+        //TextView extratxt = (TextView) rowView.findViewById(R.id.textView1);
 
         //dari instansiasi diatas, dimasukkan data yang diambil dari array yang ada di MainActivity
         txtTitle.setText(itemname[position]);
         imageView.setImageResource(imgid[position]);
-        extratxt.setText("Keterangan "+descriptionItem[position]);
+        //extratxt.setText("Keterangan "+descriptionItem[position]);
         return rowView;
 
     };
